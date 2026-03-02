@@ -85,4 +85,15 @@ public class RegularPolygon {
         return "Polygon " + i + " Perimeter: " + getPerimeter() + "\nPolygon " + i + " Area: " + getArea();
     }
 
+    // Method for running and testing the code
+    public static void main(String[] args) {
+        RegularPolygon[] polygonsArray = {new RegularPolygon(),
+                new RegularPolygon(6, 4),
+                new RegularPolygon(10, 4, 5.6, 7.8)
+        };
+
+        for (int i = 0; i <= 2; i++) {
+            System.out.println(polygonsArray[i].toString(i + 1));
+        }
+    }
 }
