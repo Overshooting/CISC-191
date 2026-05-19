@@ -1,6 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * This class sorts arrays taken from user input using a merge sort algorithm
+ *
+ * @author Alexander Melis, aamelis@gmail.com
+ * @version 1.0
+ * @since 5/19/2026
+ */
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] array = getUserInput();
